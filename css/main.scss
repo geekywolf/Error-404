@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+@media only screen and (min-width: 120px) {
+body{
+    background: white;
+    margin: 0;
+}
+
+.navbar{
+    font-size: 1em;
+    margin-left: 2em;
+    font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
+}
+
+.error-message{
+    .container{
+        margin: 2em 2em;
+        font-family: 'Space Mono';
+        img{
+            display: block;
+            width: 55%;
+            margin: 1em auto;
+        }
+        h1{
+            font-size: 2.5em;
+            font-weight: 700;
+            margin: 3px;
+        }
+        p{
+            font-size: 1.1em;
+            font-weight: 400;
+            text-align: justify;
+        }
+        .cta-btn{
+            margin: 2em  0em 7em;
+            background-color: #333;
+            height: 4em;
+            width: 15em;
+            font-size: 11px;
+            display: flex;
+
+            a{
+                text-decoration: none;
+                color: #f2f2f2;
+                padding: 1.5em 2em;
+            }
+        }
+    }
+
+
+
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1em;
+    
+    p{
+        font-size: .8em;
+        color: #5a5858;
+    }
+}
+
+}
+
+@media only screen and (min-width: 760px) {
+    .error-message .container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7em;
+        .right-col{
+            margin-top: 1em;
+            margin-right: 2em;
+        }
+        
+    }
+    .footer{
+        text-align: center;
+
+    }
+}
